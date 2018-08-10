@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Track Suggester</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Track Suggester</title>
+</head>
 
-  <body>
-    <div class="container">
-      <h2>Track Suggester</h1>
-        <p>To determine the Epicodus track that's right for you, answer a series of questions below:</p>
+<body>
+  <div class="container">
+    <h2>Track Suggester</h2>
+    <p>To determine the Epicodus track that's right for you, answer a series of questions below:</p>
 
-        <form id="questions">
-          <p>What would you like to focus on?</p>
-          <select class="form-control" id="focus">
-            <option>Front-end</option>
-            <option>Back-end</option>
+    <form id="questions">
+      <p>What would you like to focus on?</p>
+      <select class="form-control" id="focus">
+        <option>Front-end</option>
+        <option>Back-end</option>
+      </select>
 
-          <p>Who would you like to work for?</p>
-          <select class="form-control" id="employer">
-            <option>Larger company on business software</option>
-            <option>Enterprise company</option>
-            <option>Startups/Smaller company</option>
+      <p>Who would you like to work for?</p>
+      <select class="form-control" id="employer">
+        <option>Larger company on business software</option>
+        <option>Enterprise company</option>
+        <option>Startups/Smaller company</option>
+      </select>
 
-          <p>What would you like to build?</p>
-          <select class="form-control" id="buil">
-              <option>Windows desktop application</option>
-              <option>Design focused websites</option>
-              <option>Interactive web applications</option>
+      <p>What would you like to build?</p>
+      <select class="form-control" id="build">
+        <option>Windows desktop application</option>
+        <option>Design focused websites</option>
+        <option>Interactive web applications</option>
+      </select>
 
-          <p>What type of environment would you envision yourself in?</p>
-          <select class="form-control" id="environment">
-              <option>Corporate</option>
-              <option>Startup</option>
+      <p>What type of environment would you envision yourself in?</p>
+      <select class="form-control" id="environment">
+        <option>Corporate</option>
+        <option>Startup</option>
+      </select>
 
-          <p>Which is most important to you?</p>
-          <select class="form-control" id="interest">
-              <option>How things look</option>
-              <option>How things work</option>
+      <p>Which is most important to you?</p>
+      <select class="form-control" id="interest">
+        <option>How things look</option>
+        <option>How things work</option>
+      </select>
+
+      <button type="submit" class="btn btn-primary" id="complete">Tell me my track!</button>
+    </form>
+
+    <div id="Ruby">
+      <p>Since you like the idea of working for a startup or smaller company building interactive web applications, the Ruby/Rails track is right for you.</p>
     </div>
-  </body>
+    <div id="CSS">
+      <p>Since you're interested in the front-end and on design focused websites, the CSS/React track is right for you.</p>
+    </div>
+    <div id="C">
+      <p>Since you like the idea of working in a corporate environment building Windows desktop applications and focusing on the back-end, the C#/.NET is right for you.</p>
+    </div>
+  </div>
+</body>
 </html>
