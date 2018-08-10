@@ -23,6 +23,10 @@ Please contact Kate Goss if you have any questions or comments. Feel free to add
 HTML, CSS, JavaScript
 Used Bootstrap and jQuery.
 
+## Added Features
+
+Added a favicon, alert popups for missing user content, 
+
 ### License
 
 This software is licensed under the MIT license.

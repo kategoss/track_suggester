@@ -11,32 +11,30 @@
   display: none;
 }
 
-#ruby_css_c {
-  display: none;
-}
-
-#ruby_c {
+.user-result {
   display: none;
 }
 
 .btn {
   display: block;
+  margin: 0 auto;
 }
 
 .body {
   font-family: helvetica;
-  color: #0a0a09;
 }
 
 .img {
-  float: left;
-  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
   height: auto;
+  display: block;
 }
 
 .text-emphasis {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   color: #40b8bc;
 }
 
@@ -47,7 +45,6 @@
 .jumbotron {
   background-color: #40b8bc;
   width: 80%;
-  align-content: center;
 }
 
 .jumbotron h1 {
@@ -68,5 +65,8 @@
 }
 
 .user-result {
-  background-color: 
+  border: solid #e5ab54 3px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
 }
