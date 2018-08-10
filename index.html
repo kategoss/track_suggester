@@ -11,56 +11,68 @@
 
 <body>
   <div class="container">
-    <h2>Track Suggester</h2>
-    <p>To determine the Epicodus track that's right for you, answer a series of questions below:</p>
+    <div class="welcome box">
+      <h2>Track Suggester</h2>
+      <h4>To determine the Epicodus track that's right for you, answer a series of questions below:</h4>
+    </div>
 
-    <form id="survey">
-      <p>What would you like to focus on?</p>
-      <select class="form-control" id="focus">
-        <option>Front-end</option>
-        <option>Back-end</option>
-      </select>
-
-      <p>Who would you like to work for?</p>
-      <select class="form-control" id="employer">
-        <option>Larger company</option>
-        <option>Enterprise company</option>
-        <option>Startups/Smaller company</option>
-      </select>
-
-      <p>What would you like to build?</p>
-      <select class="form-control" id="build">
-        <option>Windows desktop applications</option>
-        <option>Design-focused websites</option>
-        <option>Interactive web applications</option>
-      </select>
-
-      <p>What type of environment would you envision yourself in?</p>
-      <select class="form-control" id="environment">
-        <option>Corporate</option>
-        <option>Startup</option>
-      </select>
-
-      <p>Which is most important to you?</p>
-      <select class="form-control" id="interest">
-        <option>How things look</option>
-        <option>How things work</option>
-      </select>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="name">Let's start off with your name:</label>
+        <input type="text" class="name" id="name" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="focus">What would you like to focus on?</label>
+        <select class="form-group" id="focus">
+          <option>Front-end</option>
+          <option>Back-end</option>
+        </select>
+      </div>
+      <div>
+        <label for="employer">Who would you like to work for?</label>
+        <select class="form-group" id="employer">
+          <option>Larger company</option>
+          <option>Enterprise company</option>
+          <option>Startups/Smaller company</option>
+        </select>
+      </div class="form-group">
+      <div>
+        <label for="build">What would you like to build?</label>
+        <select class="form-group" id="build">
+          <option>Windows desktop applications</option>
+          <option>Design-focused websites</option>
+          <option>Interactive web applications</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="environment">What type of environment would you envision yourself in?</label>
+        <select class="form-group" id="environment">
+          <option>Corporate</option>
+          <option>Startup</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="interest">Which is most important to you?</label>
+        <select class="form-group" id="interest">
+          <option>How things look</option>
+          <option>How things work</option>
+        </select>
+      </div>
 
       <button type="submit" class="btn btn-primary" id="complete">Tell me my track!</button>
     </form>
 
     <div id="ruby">
-      <img src="img/ruby.png">
-      <h4>Since you like the idea of working for a startup or smaller company building interactive web applications, the <span class="text-emphasis">Ruby/Rails</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
+      <img src="img/ruby.png" alt="picture of Ruby">
+      <h4><span class="name"></span>, since you like the idea of working for a startup or smaller company building interactive web applications, the <span class="text-emphasis">Ruby/Rails</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
     </div>
     <div id="css">
-      <img src="img/react.png">
-      <h4>Since you're interested in the front-end and on design focused websites, the <span class="text-emphasis">CSS/React</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
+      <img src="img/react.png" alt="picture of CSS">
+      <h4><span class="name"></span>,since you're interested in the front-end and on design focused websites, the <span class="text-emphasis">CSS/React</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
     </div>
     <div id="c">
-      <img src="img/c.png">
-      <h4>Since you like the idea of working in a corporate environment building Windows desktop applications and focusing on the back-end, the <span class="text-emphasis">C#/.NET</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
+      <img src="img/c.png" alt="picture of C#">
+      <h4><span class="name"></span>, since you like the idea of working in a corporate environment building Windows desktop applications and focusing on the back-end, the <span class="text-emphasis">C#/.NET</span> track is right for you. Check out the schedule <a href="https://www.epicodus.com/portland/">here</a>.</h4>
     </div>
   </div>
 </body>

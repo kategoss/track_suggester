@@ -23,6 +23,10 @@
   display: block;
 }
 
+.body {
+  font-family: helvetica;
+}
+
 .img {
   float: left;
   width: 200px;

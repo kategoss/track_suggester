@@ -1,12 +1,14 @@
 $(document).ready(function() {
 
-  $("#survey").submit (function(event) {
+  $("#formOne").submit (function(event) {
+    var nameInput = $("#name").val();
     var focusInput = $("#focus").val();
     var employerInput = $("#employer").val();
     var buildInput = $("#build").val();
     var environmentInput = $("#environment").val();
     var interestInput = $("#interest").val();
 
+    $(".name").text(nameInput)
     $(".focus").text(focusInput);
     $(".employer").text(employerInput);
     $(".build").text(buildInput);
