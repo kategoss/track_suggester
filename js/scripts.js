@@ -27,19 +27,20 @@ $(document).ready(function() {
       $(".user-result").show();
       $("#all-2").show();
       $("#all-2").siblings().hide();
-    } else if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
-      $(".user-result").show();  $("#ruby").show();
+    } else if (focusInput === "Back-end" && buildInput === "Interactive web applications") {
+      $(".user-result").show();
+      $("#ruby").show();
       $("#ruby").siblings().hide();
-    } else if (focusInput === "Front-end" && interestInput === "How things look") {
+    } else if (focusInput === "Front-end" && buildInput === "Design-focused websites" || interestInput === "How things look") {
       $(".user-result").show();
       $("#css").show();
       $("#css").siblings().hide();
-    } else if (focusInput === "Back-end" && buildInput === "Windows desktop applications" && interestInput === "How things work") {
+    } else if (focusInput === "Back-end" && buildInput === "Windows desktop applications") {
       $(".user-result").show();
       $("#c").show();
       $("#c").siblings().hide();
     } else {
-      alert("So many roads to take! Talk to an instructor to figure out your path.")
+      alert("So many roads to take! Can you provide more information?")
     }
 
     event.preventDefault();

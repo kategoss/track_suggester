@@ -18,8 +18,17 @@
 #all-2 {
   display: none;
 }
+
+a {
+  color: #e5ab54;
+}
+
+a:hover {
+  color: #40b8bc;
+}
 .user-result {
   display: none;
+  padding: 50px;
 }
 
 .btn {
@@ -40,6 +49,11 @@
   padding: 5px;
 }
 
+.icons {
+  display:inline-block;
+  width: 100px;
+  height: 100px;
+}
 .text-emphasis {
   font-size: 20px;
   font-weight: 800;
@@ -52,29 +66,33 @@
 
 .jumbotron {
   background-color: #40b8bc;
-  width: 80%;
+  margin: 20px;
 }
 
 .jumbotron h1 {
   text-align: center;
-  font-family: Verdana;
-  font-weight: 600;
-  padding: 20px;
+  font-weight: 500;
+  padding: 30px;
 }
 
 .jumbotron h3 {
   text-align: center;
+  font-weight: 400;
 }
 
 .panel {
   background-color: #dedfe0;
-  width: 80%;
   padding: 20px;
+  margin: 20px;
 }
 
 .user-result {
   border: solid #e5ab54 3px;
   border-radius: 10px;
-  width: 80%;
   padding: 20px;
+  margin: 20px;
+}
+
+.user-result h4 {
+  font-weight: 300;
 }
