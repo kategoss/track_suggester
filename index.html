@@ -3,12 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/stylesheet.css">
-    <script src="js/jquery-3.3.1.js">
-    <script src="js/scripts.js">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
-  <body>
 
+  <body>
+    <div class="container">
+      <h2>Track Suggester</h1>
+        <p>To determine the Epicodus track that's right for you, answer a series of questions below:</p>
+
+        <form id="questions">
+          <p>What would you like to focus on?</p>
+          <select class="form-control" id="focus">
+            <option>Front-end</option>
+            <option>Back-end</option>
+
+          <p>Who would you like to work for?</p>
+          <select class="form-control" id="employer">
+            <option>Larger company on business software</option>
+            <option>Enterprise company</option>
+            <option>Startups/Smaller company</option>
+
+          <p>What would you like to build?</p>
+          <select class="form-control" id="buil">
+              <option>Windows desktop application</option>
+              <option>Design focused websites</option>
+              <option>Interactive web applications</option>
+
+          <p>What type of environment would you envision yourself in?</p>
+          <select class="form-control" id="environment">
+              <option>Corporate</option>
+              <option>Startup</option>
+
+          <p>Which is most important to you?</p>
+          <select class="form-control" id="interest">
+              <option>How things look</option>
+              <option>How things work</option>
+    </div>
   </body>
 </html>
