@@ -38,3 +38,7 @@
   font-weight: 600;
   color: #40b8bc;
 }
+
+.form-group {
+  padding: 8px;
+}

@@ -15,7 +15,10 @@ $(document).ready(function() {
     $(".environment").text(environmentInput);
     $(".interest").text(interestInput);
 
-    if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
+
+    if (nameInput === "") {
+      alert("Please enter your name.")
+    } else if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
       $("#ruby").show();
       $("#ruby").siblings().hide();
     } else if (focusInput === "Front-end" && interestInput === "How things look") {
