@@ -11,6 +11,13 @@
   display: none;
 }
 
+#all-1 {
+  display: none;
+}
+
+#all-2 {
+  display: none;
+}
 .user-result {
   display: none;
 }
@@ -30,6 +37,7 @@
   width: 100px;
   height: auto;
   display: block;
+  padding: 5px;
 }
 
 .text-emphasis {

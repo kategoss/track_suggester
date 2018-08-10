@@ -19,6 +19,14 @@ $(document).ready(function() {
       alert("Please enter your name.")
     } else if (focusInput === "" && employerInput === "" && buildInput === "" && environmentInput === "" && interestInput === "") {
       alert("You forgot to fill out the survey!")
+    } else if (focusInput === "Back-end" && interestInput === "How things look") {
+      $(".user-result").show();
+      $("#all-1").show();
+      $("#all-1").siblings().hide();
+    } else if (focusInput === "Front-end" && interestInput === "How things work") {
+      $(".user-result").show();
+      $("#all-2").show();
+      $("#all-2").siblings().hide();
     } else if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
       $(".user-result").show();  $("#ruby").show();
       $("#ruby").siblings().hide();
@@ -37,4 +45,3 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
- 
