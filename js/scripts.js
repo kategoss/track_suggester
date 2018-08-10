@@ -18,6 +18,8 @@ $(document).ready(function() {
 
     if (nameInput === "") {
       alert("Please enter your name.")
+    } else if (focusInput === "" && employerInput === "" && buildInput === "" && environmentInput === "" && interestInput === "") {
+      alert("You forgot to fill out the survey!")
     } else if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
       $("#ruby").show();
       $("#ruby").siblings().hide();

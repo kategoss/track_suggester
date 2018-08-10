@@ -25,6 +25,7 @@
 
 .body {
   font-family: helvetica;
+  color: #0a0a09;
 }
 
 .img {
@@ -41,4 +42,31 @@
 
 .form-group {
   padding: 8px;
+}
+
+.jumbotron {
+  background-color: #40b8bc;
+  width: 80%;
+  align-content: center;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-family: Verdana;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.jumbotron h3 {
+  text-align: center;
+}
+
+.panel {
+  background-color: #dedfe0;
+  width: 80%;
+  padding: 20px;
+}
+
+.user-result {
+  background-color: 
 }
