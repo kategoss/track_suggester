@@ -26,10 +26,6 @@ a {
 a:hover {
   color: #40b8bc;
 }
-.user-result {
-  display: none;
-  padding: 50px;
-}
 
 .btn {
   display: block;
@@ -49,12 +45,7 @@ a:hover {
   padding: 5px;
 }
 
-.icons {
-  display:inline-block;
-  width: 100px;
-  height: 100px;
-}
-.text-emphasis {
+.track-emphasis {
   font-size: 20px;
   font-weight: 800;
   color: #40b8bc;
@@ -87,12 +78,19 @@ a:hover {
 }
 
 .user-result {
+  display: none;
+  padding: 50px;
   border: solid #e5ab54 3px;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
+  text-align: center;
 }
 
 .user-result h4 {
   font-weight: 300;
+}
+
+.name {
+  font-weight: 500;
 }

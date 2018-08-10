@@ -25,7 +25,7 @@ Used Bootstrap and jQuery.
 
 ## Added Features
 
-Added a favicon, alert popups for missing user content,  
+Added a favicon, alert popups for missing user content and referenced Stacks Overflow for image alignment.
 
 ### License
 
