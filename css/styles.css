@@ -11,6 +11,14 @@
   display: none;
 }
 
+#ruby_css_c {
+  display: none;
+}
+
+#ruby_c {
+  display: none;
+}
+
 .btn {
   display: block;
 }

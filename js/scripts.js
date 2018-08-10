@@ -13,16 +13,18 @@ $(document).ready(function() {
     $(".environment").text(environmentInput);
     $(".interest").text(interestInput);
 
-    if (focusInput === "Back-end" && employerInput === "Startups/Smaller company" && buildInput === "Interactive web applications") {
+    if (focusInput === "Back-end" && buildInput === "Interactive web applications" && interestInput === "How things work") {
       $("#ruby").show();
       $("#ruby").siblings().hide();
-    } else if (focusInput === "Front-end" && buildInput === "Design-focused websites" && interestInput === "How things look") {
+    } else if (focusInput === "Front-end" && interestInput === "How things look") {
       $("#css").show();
       $("#css").siblings().hide();
-    } else if (focusInput === "Back-end" && employerInput === "Larger company" && environmentInput === "Corporate") {
+    } else if (focusInput === "Back-end" && buildInput === "Windows desktop applications" && interestInput === "How things work") {
       $("#c").show();
       $("#c").siblings().hide();
-    } 
+    } else {
+      alert("So many roads to take! Talk to an instructor to figure out your path.")
+    }
     event.preventDefault();
   });
 });
