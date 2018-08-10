@@ -13,16 +13,16 @@ $(document).ready(function() {
     $(".environment").text(environmentInput);
     $(".interest").text(interestInput);
 
-    if (focusInput === "Back-end" && employerInput === "Startups/Smaller Company" && buildInput === "Interactive web applications") {
-      $("#Ruby").show();
-      $("#Ruby").siblings().hide();
+    if (focusInput === "Back-end" && employerInput === "Startups/Smaller company" && buildInput === "Interactive web applications") {
+      $("#ruby").show();
+      $("#ruby").siblings().hide();
     } else if (focusInput === "Front-end" && buildInput === "Design-focused websites" && interestInput === "How things look") {
-      $("#CSS").show();
-      $("#CSS").siblings().hide();
+      $("#css").show();
+      $("#css").siblings().hide();
     } else if (focusInput === "Back-end" && employerInput === "Larger company" && environmentInput === "Corporate") {
-      $("#C").show();
-      $("#C").siblings().hide();
-    }
+      $("#c").show();
+      $("#c").siblings().hide();
+    } 
     event.preventDefault();
   });
 });

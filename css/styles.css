@@ -1,15 +1,28 @@
+
+#ruby {
+  display: none;
+}
+
+#css {
+  display: none;
+}
+
+#c {
+  display: none;
+}
+
 .btn {
   display: block;
 }
 
-#Ruby {
-  display: none;
+.img {
+  float: left;
+  width: 200px;
+  height: auto;
 }
 
-#CSS {
-  display: none;
-}
-
-#C {
-  display: none;
+.text-emphasis {
+  font-size: 20px;
+  font-weight: 600;
+  color: #40b8bc;
 }
