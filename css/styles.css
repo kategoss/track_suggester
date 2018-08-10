@@ -2,6 +2,14 @@
   display: block;
 }
 
-#Ruby, #CSS, #C {
+#Ruby {
+  display: none;
+}
+
+#CSS {
+  display: none;
+}
+
+#C {
   display: none;
 }
